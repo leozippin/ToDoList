@@ -1,0 +1,26 @@
+.center {
+    text-align: center;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    width: 155px;
+}
+
+.centerBlock {
+    display: block;
+    margin: 0 auto;
+}
+
+#clearButton {
+    width: 155px;
+}
+
+ul {
+    text-align: center;
+}
+
+* {
+    font-family: Arial;
+}
