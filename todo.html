@@ -5,17 +5,19 @@
     <title>To-Do-Bom</title>
 
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="doitinstyle.css">
 
 
 </head>
 <body>
     <header>
-        <h1 class="center" id="title">Hello, you have 0 things to do</h1>
+        <h1 class="center" id="title">TO-DO</h1>
+        <h3 class="center" id="taskNum">You have 0 things to do</h3>
     </header>
 
-    <div class="center">
+    <div class="center" id="inputBlock">
         <input type="text" id="task" placeholder="New task">
         <button id="addButton" onclick="addTask()">+</button>
     </div>
@@ -27,15 +29,6 @@
 
     <div class="center">
         <table id="tasksTable">
-            <!--<tr class="todo">
-                <td>Buy Comics</td>
-            </tr>
-            <tr class="todo">
-                <td>Call Mom</td>
-            </tr>
-            <tr class="done">
-                <td>Pay electric bill</td>
-            </tr>-->
         </table>
     </div>
     <div class="center">

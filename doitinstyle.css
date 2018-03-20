@@ -1,3 +1,25 @@
+* {
+    font-family: 'Raleway';
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 3em;
+}
+
+#title {
+    border-bottom: 0.1em solid black;
+    width: 5em;
+}
+
+#task {
+    width: 13em;
+}
+
+#addButton {
+    width: 3em;
+}
+
 .center {
     text-align: center;
 }
@@ -5,16 +27,12 @@
 select {
     display: block;
     margin: 0 auto;
-    width: 250px;
-}
-
-.centerBlock {
-    display: block;
-    margin: 0 auto;
+    width: 17em;
 }
 
 #clearButton {
-    width: 250px;
+    width: 17em;
+    height: 2em;
 }
 
 ul {
@@ -32,18 +50,19 @@ table {
 
 td {
     box-sizing: border-box;
-    padding: 12px 100px 12px 100px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /*padding: 5px 105px 5px 105px;*/
+    padding: 0.5em 7em 0.5em 7em;
+
 }
 
-tr:hover {
-    background: bisque;
+td:hover {
+    background: #e0e0e0;
 }
 
 tr.done {
-    text-decoration: line-through green;
-    color: brown;
+    text-decoration: line-through;
+    text: grey;
 }
 
-* {
-    font-family: 'Open Sans', sans-serif;
-}

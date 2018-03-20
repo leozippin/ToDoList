@@ -31,8 +31,9 @@ function changeState() {
 }
 
 function updateTasksNum() {
-    var header = document.getElementById('title');
-    header.innerHTML = 'Hello, you have ' + tasksNum + ' things to do';
+    var header = document.getElementById('taskNum');
+
+    header.innerHTML = 'You have ' + tasksNum + ' things to do';
 }
 
 function filter() {
